@@ -11,6 +11,18 @@
 		279023BB2738D25E0086012E /* KickStarterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279023B02738D25E0086012E /* KickStarterFramework.framework */; };
 		279023C02738D25E0086012E /* KickStarterFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */; };
 		279023C12738D25E0086012E /* KickStarterFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 279023B32738D25E0086012E /* KickStarterFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279023CC2738D3230086012E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023CB2738D3230086012E /* Constants.swift */; };
+		279023DD2738D3330086012E /* TeamRepositable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023CF2738D3320086012E /* TeamRepositable.swift */; };
+		279023DE2738D3330086012E /* TeamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D02738D3320086012E /* TeamRepository.swift */; };
+		279023DF2738D3330086012E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D12738D3320086012E /* Endpoints.swift */; };
+		279023E02738D3330086012E /* SoccerTeamResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D32738D3320086012E /* SoccerTeamResponseModel.swift */; };
+		279023E12738D3330086012E /* LeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D42738D3320086012E /* LeagueModel.swift */; };
+		279023E22738D3330086012E /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D62738D3320086012E /* UIImageView+Extensions.swift */; };
+		279023E32738D3330086012E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D72738D3320086012E /* UIViewController+Extension.swift */; };
+		279023E42738D3330086012E /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023D82738D3320086012E /* Array+Extension.swift */; };
+		279023E52738D3330086012E /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023DA2738D3330086012E /* TeamViewModel.swift */; };
+		279023E62738D3330086012E /* TeamViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023DB2738D3330086012E /* TeamViewModelDelegate.swift */; };
+		279023E72738D3330086012E /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023DC2738D3330086012E /* ResultsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		279023B42738D25E0086012E /* KickStarterFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KickStarterFramework.docc; sourceTree = "<group>"; };
 		279023BA2738D25E0086012E /* KickStarterFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickStarterFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickStarterFrameworkTests.swift; sourceTree = "<group>"; };
+		279023CB2738D3230086012E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		279023CF2738D3320086012E /* TeamRepositable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRepositable.swift; sourceTree = "<group>"; };
+		279023D02738D3320086012E /* TeamRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRepository.swift; sourceTree = "<group>"; };
+		279023D12738D3320086012E /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		279023D32738D3320086012E /* SoccerTeamResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoccerTeamResponseModel.swift; sourceTree = "<group>"; };
+		279023D42738D3320086012E /* LeagueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueModel.swift; sourceTree = "<group>"; };
+		279023D62738D3320086012E /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		279023D72738D3320086012E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		279023D82738D3320086012E /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		279023DA2738D3330086012E /* TeamViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		279023DB2738D3330086012E /* TeamViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewModelDelegate.swift; sourceTree = "<group>"; };
+		279023DC2738D3330086012E /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,12 @@
 		279023B22738D25E0086012E /* KickStarterFramework */ = {
 			isa = PBXGroup;
 			children = (
+				279023D12738D3320086012E /* Endpoints.swift */,
+				279023D52738D3320086012E /* Extensions */,
+				279023D22738D3320086012E /* Models */,
+				279023CD2738D3320086012E /* Repository */,
+				279023D92738D3320086012E /* View Models */,
+				279023CA2738D3230086012E /* Constants */,
 				279023B32738D25E0086012E /* KickStarterFramework.h */,
 				279023B42738D25E0086012E /* KickStarterFramework.docc */,
 			);
@@ -83,6 +113,60 @@
 				279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */,
 			);
 			path = KickStarterFrameworkTests;
+			sourceTree = "<group>";
+		};
+		279023CA2738D3230086012E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				279023CB2738D3230086012E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		279023CD2738D3320086012E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				279023CE2738D3320086012E /* Protocol */,
+				279023D02738D3320086012E /* TeamRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		279023CE2738D3320086012E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				279023CF2738D3320086012E /* TeamRepositable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		279023D22738D3320086012E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				279023D32738D3320086012E /* SoccerTeamResponseModel.swift */,
+				279023D42738D3320086012E /* LeagueModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		279023D52738D3320086012E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				279023D62738D3320086012E /* UIImageView+Extensions.swift */,
+				279023D72738D3320086012E /* UIViewController+Extension.swift */,
+				279023D82738D3320086012E /* Array+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		279023D92738D3320086012E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				279023DA2738D3330086012E /* TeamViewModel.swift */,
+				279023DB2738D3330086012E /* TeamViewModelDelegate.swift */,
+				279023DC2738D3330086012E /* ResultsViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +278,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279023E32738D3330086012E /* UIViewController+Extension.swift in Sources */,
+				279023E42738D3330086012E /* Array+Extension.swift in Sources */,
+				279023DD2738D3330086012E /* TeamRepositable.swift in Sources */,
+				279023E52738D3330086012E /* TeamViewModel.swift in Sources */,
 				279023B52738D25E0086012E /* KickStarterFramework.docc in Sources */,
+				279023DE2738D3330086012E /* TeamRepository.swift in Sources */,
+				279023CC2738D3230086012E /* Constants.swift in Sources */,
+				279023E02738D3330086012E /* SoccerTeamResponseModel.swift in Sources */,
+				279023E62738D3330086012E /* TeamViewModelDelegate.swift in Sources */,
+				279023E12738D3330086012E /* LeagueModel.swift in Sources */,
+				279023E72738D3330086012E /* ResultsViewModel.swift in Sources */,
+				279023E22738D3330086012E /* UIImageView+Extensions.swift in Sources */,
+				279023DF2738D3330086012E /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +492,7 @@
 		279023C82738D25E0086012E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +513,7 @@
 		279023C92738D25E0086012E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
