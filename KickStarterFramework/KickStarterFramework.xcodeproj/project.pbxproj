@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		279023B52738D25E0086012E /* KickStarterFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 279023B42738D25E0086012E /* KickStarterFramework.docc */; };
 		279023BB2738D25E0086012E /* KickStarterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279023B02738D25E0086012E /* KickStarterFramework.framework */; };
-		279023C02738D25E0086012E /* KickStarterFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */; };
+		279023C02738D25E0086012E /* TeamViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023BF2738D25E0086012E /* TeamViewModelTests.swift */; };
 		279023C12738D25E0086012E /* KickStarterFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 279023B32738D25E0086012E /* KickStarterFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279023CC2738D3230086012E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023CB2738D3230086012E /* Constants.swift */; };
 		279023DD2738D3330086012E /* TeamRepositable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023CF2738D3320086012E /* TeamRepositable.swift */; };
@@ -40,7 +40,7 @@
 		279023B32738D25E0086012E /* KickStarterFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KickStarterFramework.h; sourceTree = "<group>"; };
 		279023B42738D25E0086012E /* KickStarterFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KickStarterFramework.docc; sourceTree = "<group>"; };
 		279023BA2738D25E0086012E /* KickStarterFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickStarterFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickStarterFrameworkTests.swift; sourceTree = "<group>"; };
+		279023BF2738D25E0086012E /* TeamViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModelTests.swift; sourceTree = "<group>"; };
 		279023CB2738D3230086012E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		279023CF2738D3320086012E /* TeamRepositable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRepositable.swift; sourceTree = "<group>"; };
 		279023D02738D3320086012E /* TeamRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRepository.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		279023BE2738D25E0086012E /* KickStarterFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				279023BF2738D25E0086012E /* KickStarterFrameworkTests.swift */,
+				279023BF2738D25E0086012E /* TeamViewModelTests.swift */,
 			);
 			path = KickStarterFrameworkTests;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279023C02738D25E0086012E /* KickStarterFrameworkTests.swift in Sources */,
+				279023C02738D25E0086012E /* TeamViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

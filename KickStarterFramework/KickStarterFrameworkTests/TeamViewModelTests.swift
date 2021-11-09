@@ -8,7 +8,7 @@
 import XCTest
 @testable import KickStarterFramework
 
-class KickStarterFrameworkTests: XCTestCase {
+class TeamViewModelTests: XCTestCase {
     private var mockedTeamRepository: MockTeamRepository!
     private var viewModelUnderTest: TeamViewModel!
     private var mockedDelegate: MockDelegate!
