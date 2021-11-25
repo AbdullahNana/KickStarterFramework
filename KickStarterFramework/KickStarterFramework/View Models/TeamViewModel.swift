@@ -11,6 +11,7 @@ public class TeamViewModel {
     public private(set) var teamResponse: SoccerTeamResponseModel?
     public private(set) var selectedVenue: Venue?
     public private(set) var selectedLeague: League?
+    public private(set) var selectedTeam: Team?
     private var teamRepository: TeamRepositable
     private weak var delegate: TeamViewModelDelegate?
     
@@ -52,6 +53,10 @@ public class TeamViewModel {
     
     public func setSelectedVenue(index: Int) {
         selectedVenue = teamResponse?.response[safe: index]?.venue
+    }
+    
+    public func setSelectedTeam(index: Int) {
+        selectedTeam = teamResponse?.response[safe: index]?.team
     }
     
     public var numberOfTeamResults: Int {

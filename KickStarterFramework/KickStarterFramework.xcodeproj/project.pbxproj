@@ -24,6 +24,17 @@
 		279023E62738D3330086012E /* TeamViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023DB2738D3330086012E /* TeamViewModelDelegate.swift */; };
 		279023E72738D3330086012E /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279023DC2738D3330086012E /* ResultsViewModel.swift */; };
 		279B2B46273A335900FDA2B2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 279B2B45273A335900FDA2B2 /* .gitignore */; };
+		27B07636274F9544007CD1CB /* CoachRepositable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07635274F9544007CD1CB /* CoachRepositable.swift */; };
+		27B07638274F954D007CD1CB /* CoachRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07637274F954D007CD1CB /* CoachRepository.swift */; };
+		27B0763A274F9556007CD1CB /* CoachResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07639274F9556007CD1CB /* CoachResponseModel.swift */; };
+		27B0763C274F955F007CD1CB /* DisplayCoachesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0763B274F955F007CD1CB /* DisplayCoachesViewModel.swift */; };
+		27B0763E274F9572007CD1CB /* DisplayCoachesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0763D274F9572007CD1CB /* DisplayCoachesViewModelTests.swift */; };
+		27B07640274F97E6007CD1CB /* DisplayPlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0763F274F97E6007CD1CB /* DisplayPlayersViewModel.swift */; };
+		27B07642274F97F1007CD1CB /* PlayerRepositable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07641274F97F1007CD1CB /* PlayerRepositable.swift */; };
+		27B07644274F97F8007CD1CB /* PlayerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07643274F97F8007CD1CB /* PlayerRepository.swift */; };
+		27B07646274F97FF007CD1CB /* PlayerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07645274F97FF007CD1CB /* PlayerResponseModel.swift */; };
+		27B07648274F990B007CD1CB /* ViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07647274F990B007CD1CB /* ViewModelDelegate.swift */; };
+		27B0764A274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +66,17 @@
 		279023DB2738D3330086012E /* TeamViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewModelDelegate.swift; sourceTree = "<group>"; };
 		279023DC2738D3330086012E /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
 		279B2B45273A335900FDA2B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		27B07635274F9544007CD1CB /* CoachRepositable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachRepositable.swift; sourceTree = "<group>"; };
+		27B07637274F954D007CD1CB /* CoachRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachRepository.swift; sourceTree = "<group>"; };
+		27B07639274F9556007CD1CB /* CoachResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachResponseModel.swift; sourceTree = "<group>"; };
+		27B0763B274F955F007CD1CB /* DisplayCoachesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCoachesViewModel.swift; sourceTree = "<group>"; };
+		27B0763D274F9572007CD1CB /* DisplayCoachesViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCoachesViewModelTests.swift; sourceTree = "<group>"; };
+		27B0763F274F97E6007CD1CB /* DisplayPlayersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayPlayersViewModel.swift; sourceTree = "<group>"; };
+		27B07641274F97F1007CD1CB /* PlayerRepositable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRepositable.swift; sourceTree = "<group>"; };
+		27B07643274F97F8007CD1CB /* PlayerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRepository.swift; sourceTree = "<group>"; };
+		27B07645274F97FF007CD1CB /* PlayerResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerResponseModel.swift; sourceTree = "<group>"; };
+		27B07647274F990B007CD1CB /* ViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelDelegate.swift; sourceTree = "<group>"; };
+		27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPlayersViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +135,9 @@
 		279023BE2738D25E0086012E /* KickStarterFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
+				27B0763D274F9572007CD1CB /* DisplayCoachesViewModelTests.swift */,
 				279023BF2738D25E0086012E /* TeamViewModelTests.swift */,
+				27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */,
 			);
 			path = KickStarterFrameworkTests;
 			sourceTree = "<group>";
@@ -131,6 +155,8 @@
 			children = (
 				279023CE2738D3320086012E /* Protocol */,
 				279023D02738D3320086012E /* TeamRepository.swift */,
+				27B07643274F97F8007CD1CB /* PlayerRepository.swift */,
+				27B07637274F954D007CD1CB /* CoachRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -138,6 +164,8 @@
 		279023CE2738D3320086012E /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				27B07635274F9544007CD1CB /* CoachRepositable.swift */,
+				27B07641274F97F1007CD1CB /* PlayerRepositable.swift */,
 				279023CF2738D3320086012E /* TeamRepositable.swift */,
 			);
 			path = Protocol;
@@ -147,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				279023D32738D3320086012E /* SoccerTeamResponseModel.swift */,
+				27B07639274F9556007CD1CB /* CoachResponseModel.swift */,
+				27B07645274F97FF007CD1CB /* PlayerResponseModel.swift */,
 				279023D42738D3320086012E /* LeagueModel.swift */,
 			);
 			path = Models;
@@ -165,6 +195,9 @@
 		279023D92738D3320086012E /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				27B07647274F990B007CD1CB /* ViewModelDelegate.swift */,
+				27B0763B274F955F007CD1CB /* DisplayCoachesViewModel.swift */,
+				27B0763F274F97E6007CD1CB /* DisplayPlayersViewModel.swift */,
 				279023DA2738D3330086012E /* TeamViewModel.swift */,
 				279023DB2738D3330086012E /* TeamViewModelDelegate.swift */,
 				279023DC2738D3330086012E /* ResultsViewModel.swift */,
@@ -283,13 +316,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				279023E32738D3330086012E /* UIViewController+Extension.swift in Sources */,
+				27B07648274F990B007CD1CB /* ViewModelDelegate.swift in Sources */,
+				27B0763C274F955F007CD1CB /* DisplayCoachesViewModel.swift in Sources */,
+				27B07646274F97FF007CD1CB /* PlayerResponseModel.swift in Sources */,
+				27B0763A274F9556007CD1CB /* CoachResponseModel.swift in Sources */,
 				279023E42738D3330086012E /* Array+Extension.swift in Sources */,
+				27B07640274F97E6007CD1CB /* DisplayPlayersViewModel.swift in Sources */,
 				279023DD2738D3330086012E /* TeamRepositable.swift in Sources */,
+				27B07642274F97F1007CD1CB /* PlayerRepositable.swift in Sources */,
 				279023E52738D3330086012E /* TeamViewModel.swift in Sources */,
 				279023B52738D25E0086012E /* KickStarterFramework.docc in Sources */,
 				279023DE2738D3330086012E /* TeamRepository.swift in Sources */,
 				279023CC2738D3230086012E /* Constants.swift in Sources */,
+				27B07638274F954D007CD1CB /* CoachRepository.swift in Sources */,
+				27B07636274F9544007CD1CB /* CoachRepositable.swift in Sources */,
 				279023E02738D3330086012E /* SoccerTeamResponseModel.swift in Sources */,
+				27B07644274F97F8007CD1CB /* PlayerRepository.swift in Sources */,
 				279023E62738D3330086012E /* TeamViewModelDelegate.swift in Sources */,
 				279023E12738D3330086012E /* LeagueModel.swift in Sources */,
 				279023E72738D3330086012E /* ResultsViewModel.swift in Sources */,
@@ -302,6 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B0764A274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift in Sources */,
+				27B0763E274F9572007CD1CB /* DisplayCoachesViewModelTests.swift in Sources */,
 				279023C02738D25E0086012E /* TeamViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
