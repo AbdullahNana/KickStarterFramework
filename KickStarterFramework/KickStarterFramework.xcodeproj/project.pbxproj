@@ -34,6 +34,7 @@
 		27B07644274F97F8007CD1CB /* PlayerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07643274F97F8007CD1CB /* PlayerRepository.swift */; };
 		27B07646274F97FF007CD1CB /* PlayerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07645274F97FF007CD1CB /* PlayerResponseModel.swift */; };
 		27B07648274F990B007CD1CB /* ViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07647274F990B007CD1CB /* ViewModelDelegate.swift */; };
+		27B0764A274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		27B07643274F97F8007CD1CB /* PlayerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRepository.swift; sourceTree = "<group>"; };
 		27B07645274F97FF007CD1CB /* PlayerResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerResponseModel.swift; sourceTree = "<group>"; };
 		27B07647274F990B007CD1CB /* ViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelDelegate.swift; sourceTree = "<group>"; };
+		27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPlayersViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				27B0763D274F9572007CD1CB /* DisplayCoachesViewModelTests.swift */,
 				279023BF2738D25E0086012E /* TeamViewModelTests.swift */,
+				27B07649274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift */,
 			);
 			path = KickStarterFrameworkTests;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B0764A274F99DB007CD1CB /* DisplayPlayersViewModelTests.swift in Sources */,
 				27B0763E274F9572007CD1CB /* DisplayCoachesViewModelTests.swift in Sources */,
 				279023C02738D25E0086012E /* TeamViewModelTests.swift in Sources */,
 			);

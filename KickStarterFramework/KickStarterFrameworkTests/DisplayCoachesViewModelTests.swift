@@ -29,7 +29,7 @@ class DisplayCoachesViewModelTests: XCTestCase {
         XCTAssert(!(viewModelUnderTest.coachResponse?.response.isEmpty ?? true))
         XCTAssert(mockedDelegate.refreshCalled)
     }
-    func testCoachTeamDataFailure() {
+    func testCoachDataFailure() {
         viewModelUnderTest.fetchCoachData(endpoint: viewModelUnderTest.endpoint(team: "33"))
         XCTAssert(viewModelUnderTest.coachResponse?.response.isEmpty ?? true)
         XCTAssert(mockedDelegate.showErrorCalled)
